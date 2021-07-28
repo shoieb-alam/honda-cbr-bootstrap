@@ -15,19 +15,41 @@
 
 <body>
     <header>
-        <section class="container-fluid header-background">
-            <section class="container d-flex align-items-center justify-content-center p-5">
-                <div>
+        <section class="container-fluid header-background d-flex justify-content-center p-5">
+            <section class="row container d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
-                    <h1>Honda CBR 300R</h1>
+                    <h1 class="fw-bold">Honda CBR 300R</h1>
                     <p class="header-paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                         sint.
                         Velit officia consequat
                         duis enim
                         velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button>Purchase</button>
+                    <button type="button" class="purchase-btn" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Purchase</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content bg-dark bg-gradient">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Welcome</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>This is HONDA CBR 300R bike. If you want to purchase this model, please contact
+                                        to our dealer.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="purchase-btn" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="purchase-btn">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
+                <div class="col-lg-6 col-md-6 col-12">
                     <img src="images/header-bike.png" alt="">
                 </div>
             </section>
@@ -35,6 +57,15 @@
     </header>
 
     <main>
+        <section class="container text-center p-5">
+            <h1 class="fw-bold">Fetured Bikes 2021</h1>
+            <small class="feature">Best bike collection</small>
+            <div class="feature-bike row my-5 g-5">
+                <img class="mx-auto col-lg-4 col-md-6 col-12 gray-bike" src="images/feature-bike.jpg" alt="">
+                <img class="mx-auto col-lg-4 col-md-6 col-12" src="images/feature-bike.jpg" alt="">
+                <img class="mx-auto col-lg-4 col-md-6 col-12 gray-bike" src="images/feature-bike.jpg" alt="">
+            </div>
+        </section>
 
     </main>
     <footer>

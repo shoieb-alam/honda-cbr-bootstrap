@@ -1,7 +1,29 @@
+body{
+    font-family: sans-serif;
+}
 .header-background{
     background-color: #264653;
     color: white;
 }
 .header-paragraph{
     color: #E0E0E0;
+}
+.purchase-btn{
+    background-color: #E76F51;
+    border: none;
+    border-radius: 5px;
+    width: 168px;
+    height: 44px;
+    color: white;
+}
+.feature{
+    color: #E76F51;
+    font-weight: 600;
+}
+.gray-bike{
+    filter: grayscale(100%);
+}
+.feature-bike img{
+    height: 233px;
+    width: 298px;
 }
