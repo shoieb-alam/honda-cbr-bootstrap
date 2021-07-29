@@ -8,7 +8,7 @@ body{
 .header-paragraph{
     color: #E0E0E0;
 }
-.purchase-btn{
+.header-btn{
     background-color: #E76F51;
     border: none;
     border-radius: 5px;
@@ -16,7 +16,7 @@ body{
     height: 44px;
     color: white;
 }
-.feature{
+.colored-text{
     color: #E76F51;
     font-weight: 600;
 }
@@ -26,4 +26,17 @@ body{
 .feature-bike img{
     height: 233px;
     width: 298px;
+}
+.clients img{
+    width: 149px;
+    height: 149px;
+}
+.clients-text{
+    color: #6C6C6C;
+}
+.rating-checked {
+    color: #E77C40;
+}
+.accordian-text{
+    color: #7E848C;
 }
