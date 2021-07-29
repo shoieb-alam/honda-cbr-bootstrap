@@ -1,20 +1,20 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.header-background{
+.dark-blue-background{
     background-color: #264653;
     color: white;
 }
 .header-paragraph{
     color: #E0E0E0;
 }
-.header-btn{
+.button{
     background-color: #E76F51;
     border: none;
     border-radius: 5px;
-    width: 168px;
-    height: 44px;
+    padding: 10px 40px;
     color: white;
+    text-decoration: none;
 }
 .colored-text{
     color: #E76F51;
@@ -34,8 +34,11 @@ body{
 .clients-text{
     color: #6C6C6C;
 }
-.rating-checked {
+.fa-star.filled{
     color: #E77C40;
+}
+.fa-star.empty{
+    color: gray;
 }
 .accordian-text{
     color: #7E848C;
